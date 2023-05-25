@@ -1,0 +1,137 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+.cabecalho{
+	height:150px;
+	background-color:black;
+	align-items:center;
+	display:flex;
+	justify-content: center;
+}
+
+.logo{
+	width:220px;
+}
+
+.corpo{
+	display:flex;
+	justify-content: center;
+	background-color:#A9A9A9;
+}
+
+.titulo{
+	max-width: 300px;
+	max-height:200px;
+	background-color:#363636;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 10px;
+	color:white;
+}
+
+.tentativas{
+	max-width: 300px;
+	max-height:200px;
+	background-color:#363636;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 10px;
+	color:white;
+}
+
+.txttentativas{
+	color:red;
+}
+
+.pontos{
+	max-width: 300px;
+	max-height:200px;
+	background-color:#363636;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 10px;
+	color:white;
+}
+
+.txtPontos{
+	color:red;
+}
+
+.corpo2{
+	display:flex;
+	justify-content: center;
+	background-color:#A9A9A9;
+}
+
+.txtanteriores{
+	max-width: 365px;
+	max-height:200px;
+	background-color:#363636;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 10px;
+	color:white;
+	width:400px;
+	justify-content: center;
+	align-items:center;
+	display:flex;
+}
+
+.corpo3{
+	display:flex;
+	justify-content: center;
+	background-color:#A9A9A9;
+}
+
+.acerto{
+	max-width: 365px;
+	max-height:1100px;
+	background-color:#363636;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 10px;
+	color:white;
+	width:400px;
+	height:400px;
+	justify-content: center;
+	align-items:center;
+	display:flex;
+}
+
+.corpo4{
+	display:flex;
+	justify-content: center;
+	background-color:#A9A9A9;
+}
+
+.txtAcerto{
+	max-width: 365px;
+	max-height:200px;
+	background-color:#363636;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 10px;
+	color:white;
+	width:400px;
+	justify-content: center;
+	align-items:center;
+	display:flex;
+}
+
+.numeroAleatorio{
+	color:red;
+}
+
+.rodape{
+	height:150px;
+	background-color:black;
+	align-items:center;
+	display:flex;
+	justify-content: center;
+}
+
+.txtrodape{
+	color:white;
+}

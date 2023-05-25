@@ -1,0 +1,65 @@
+<!DOCYTYPE html>
+<html>
+	<head>
+		<title>Atividade 25 b - PCS</title>
+		<script src="javasc.js"></script>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Minha pagina de calculos</h1>
+		<br>
+		<h3>Calculo de IMC</h3>
+		<br>
+		Peso:
+		<br>
+		<input type="text" id="campoPeso" name="campoPeso" placeholder="Peso">
+		<br>
+		Altura(em centimetros)
+		<br>
+		<input type="text" id="campoAltura" name="campoAltura" placeholder="Altura em centimetros">
+		<button onclick="calculaIMC()">calcular</button>
+		<br>
+		<label id="labelIMC">Antes do calculo...</label>
+		
+		<h3>Conversor de metros em centimetros</h3>
+		<br>
+		valor em metros:
+		<br>
+		<input type="text" id="campoMetros" name="campoMetros" placeholder="metros">
+		<br>
+		<button onclick="converteCM()">converter</button>
+		<br>
+		<label id="labelCM">Antes do calculo...</label>
+		<br>
+		<h3>Calculadora</h3>
+		<br>
+		Digite o primeiro numero:
+		<br>
+		<input type="text" id="num1" name="num1" placeholder="PrimeiroNumero">
+		<br>
+		Digite o segundo numero:
+		<br>
+		<input type="text" id="num2" name="num2" placeholder="SegundoNumero">
+		<br>
+		<button onclick="soma()">Soma</button>
+		<br>
+		<button onclick="subtrai()">subtrai</button>
+		<br>
+		<button onclick="multiplicacao()">multiplicacao</button>
+		<br>
+		<button onclick="divisao()">divisao</button>
+		<br>
+		<label id="labelCalculadora">Antes do calculo...</label>
+		
+		<h3>Troca de padrão de datas<h3>
+		Data:
+		<br>
+		<input type="text" id="campoData" name="campoData" placeholder="DD/MM/AAAA">
+		<br>
+		<button onclick="converterData()">Trocar</button>
+		<br>
+		<label id="labelData">...</label>
+		
+		
+	</body>
+</html>

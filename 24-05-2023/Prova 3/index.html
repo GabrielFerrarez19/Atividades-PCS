@@ -1,0 +1,54 @@
+<!DOCTYPE html><!--Essa parte do cadigo exeuta a versão mais nova do html-->
+<html>
+    <head><!--Essa parte é a cabeça do codigo-->
+		<meta charset="UTF-8"><!-- essa parte do codigo mostra para o navegador o formato dos caracteris digitados no site-->
+		<script src="java.js"></script><!--essa parte faz a conexão do html para o javaScript-->
+		<link rel="stylesheet" type="text/css" href="style.css"/><!--essa parte faz a conexão do html para o css-->
+    </head>
+    <body><!--Essa parte e o corpo do codigo-->
+        <section><!--Essa section divide o titulo h1 do resto do codigo-->
+            <h1>Avaliação 03 - PCS</h1><!--Abre um titulo h1-->
+        </section>
+        <br><!--quebra linha-->
+        <section><!--Essa section divide os input e o button preencheObjeto do resto do codigo-->
+        <br>
+        <form id="formCadastro"><!--Abre um formulario-->
+            Marca:
+            <br>
+            <input type="text" id="txtMarca" required><!--Da entrada na variavel marca-->
+            <br>
+            <br>
+			Modelo:
+            <br>
+            <input type="text" id="txtModelo" required><!--Da entrada na variavel modelo-->
+            <br>
+            <br>
+            Ano:
+            <br>
+            <input type="text" id="txtAno" required><!--Da entrada na variavel ano-->
+            <br>
+            <br>
+            Cor:
+            <br>
+            <input type="text" id="txtCor" required><!--Da entrada na variavel cor-->
+            <br>
+            <br>
+            <button type="button" onclick="preencheObjeto()">Adiciona Carro</button><!--Esse button executa a função preencherObjeto-->
+        <br>
+        </section>
+        <br>
+        <section class="sectiontwo"><!--Essa section divide o button da função mostrar carros e a label do resto do codigo-->
+            <br>
+            <button type="button" onclick="mostrarCarro()">Mostrar Todos</button><!--Esse button executa a função mostrarCarro-->
+            <br>
+            <label id="lblMostrarCarro">...</label><!--Mostra o resultado da aplicação dos inputs-->
+            <br>
+        </section>
+    </body>
+<html>
+
+
+
+
+
+<!--Acho que deixar a pagina com uma paleta de cores melhor com mais contraste, mas em geral a pagina esta boa e funcional-->
